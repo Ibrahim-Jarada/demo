@@ -12,7 +12,7 @@
 - [Sequelize](https://sequelize.org/)
 - [Typescript](https://www.typescriptlang.org/docs/)
 - [SendGrid](https://sendgrid.com/)
-- [AWS-S#](https://aws.amazon.com/s3/)
+- [AWS-S3](https://aws.amazon.com/s3/)
 <p align="right"><a href="#top">back to top</a></p>
 
 ## Getting Started
