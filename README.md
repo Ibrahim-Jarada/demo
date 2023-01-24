@@ -64,7 +64,7 @@ npm run build:db
 npm run dev
 ```
 
-7. In order to test the app you can use Postman colection included in the repo 
+7. In order to test the app you can use Postman collection included in the repo 
 
 ```
 ./demo/rating.postman_collection.json
