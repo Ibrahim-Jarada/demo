@@ -11,7 +11,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_DB: postgres
     ports: 
-      - "5432:5432"
+      - "5001:5432"
       # sudo service postgresql stop
   web:
     build: .
