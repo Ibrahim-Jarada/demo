@@ -51,7 +51,7 @@ const onError = (error: NodeJS.ErrnoException): void => {
       Logger.info(`Listening on http://${bind}`);
     };
 
-    server.listen(port as number, process.env.NODE_ENV === 'development' ? 'localhost' : undefined);
+    server.listen(port as number, process.env.NODE_ENV === 'development' ? '0.0.0.0' : undefined);
     server.on('listening', onListening);
     server.on('error', onError);
   } catch (err) {

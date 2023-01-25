@@ -6,6 +6,6 @@ WORKDIR /usr/app
 COPY . .
 RUN npm install --force
 RUN npm run build:db
+RUN npm run build
+CMD [ "npm","run","start" ]
 EXPOSE 5000
-
-CMD [ "npm","run","dev" ]
